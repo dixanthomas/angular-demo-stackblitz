@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import { products } from '../products';
 
 
@@ -11,7 +10,12 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
-  share() {
+  constructor(
+    ) {}
+
+  openModal() {
+  }
+share() {
     window.alert('The product has been shared!');
   }
 }

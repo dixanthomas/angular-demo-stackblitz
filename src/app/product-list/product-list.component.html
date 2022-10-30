@@ -1,10 +1,11 @@
 <h2>Products</h2>
 <div>
-  <input type="text" #id1 /><br>
-  <input type="text" #id2 ><br>
+  <input type="text" #id1 /><br />
+  <input type="text" #id2 /><br />
   <!-- <button style="background-color:yellow"><a [routerLink]="['/test', id1.value, id2.value]">test</a></button> -->
-  <button style="background-color:yellow"><a>test</a></button>
+  <button style="background-color:yellow" (click)="openModal()"><a>test</a></button>
 </div>
+
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
